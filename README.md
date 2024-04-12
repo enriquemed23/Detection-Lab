@@ -18,9 +18,15 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ## Steps
 Installing Sysmon. <br>
 <img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon install.PNG" height= 250 width =450 /> 
-<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon confirmed.PNG" height= 250 width =450 /> <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon confirmed.PNG" height= 250 width =450 /> <br> <br>
 Installing Splunk. <br>
 <img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkInstall.PNG" height= 250 width =450 /> 
-<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkConfirm.PNG" height= 250 width =450 /> <br>
-Add our inputs.conf file to allow Splunk to ingest Sysmon. Also, add the Sysmon Add App. <br>
-<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/INputsMoved.PNG" height= 250 width =450 /> <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkConfirm.PNG" height= 250 width =450 /> <br> <br>
+Add our inputs.conf file to allow Splunk to ingest Sysmon. Also, add the Sysmon Add App, this allows for much more extracted fields like parent process IDs. <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/INputsMoved.PNG" height= 250 width =450 /> 
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkRestart.PNG" height= 250 width =450 /> 
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkLogsReceived.PNG" height= 250 width =450 /> 
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon Splunk Add.PNG" height= 250 width =450 /> <br> <br>
+Nmap Scan to see host is up and what is on it. Could use these ports in another lab. <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Nmapscan.PNG" height= 250 width =450 /> <br> <br>
+Creating a payload that victim will download and execute from our attacker python server. 
