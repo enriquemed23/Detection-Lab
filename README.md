@@ -16,10 +16,11 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+Installing Sysmon. <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon install.PNG" height= 250 width =450 /> 
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/Sysmon confirmed.PNG" height= 250 width =450 /> <br>
+Installing Splunk. <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkInstall.PNG" height= 250 width =450 /> 
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/SplunkConfirm.PNG" height= 250 width =450 /> <br>
+Add our inputs.conf file to allow Splunk to ingest Sysmon. Also, add the Sysmon Add App. <br>
+<img src="https://github.com/enriquemed23/Detection-Lab/blob/main/INputsMoved.PNG" height= 250 width =450 /> <br>
